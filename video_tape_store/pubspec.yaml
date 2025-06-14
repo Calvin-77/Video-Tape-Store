@@ -1,0 +1,48 @@
+name: video_tape_store
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  carousel_slider: ^5.0.0
+  
+  phosphor_flutter: ^2.1.0
+
+  provider:
+
+  image_picker: ^1.1.2
+
+  http: ^1.2.2
+  
+  google_sign_in: ^6.2.2
+  
+  permission_handler: ^11.3.1
+  
+  path: ^1.9.0
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  
+  fonts:
+  - family: Poppins
+    fonts:
+      - asset: assets/fonts/Poppins-Regular.ttf
+      - asset: assets/fonts/Poppins-SemiBold.ttf
